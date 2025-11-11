@@ -1,5 +1,6 @@
 
 import './App.css'
+import Reducer from './Components/usereducer/reducer'
 import Counter from './Counter'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
     
       <Counter></Counter>
+      <Reducer></Reducer>
       
     </>
   )

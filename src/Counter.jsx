@@ -9,7 +9,7 @@ const Counter = () => {
             <h1>Count: {count}</h1>
             <button onClick={()=> dispatch(increment())}>Increment</button>
             <button onClick={()=> dispatch(decrement())}>decrement</button>
-            <button onClick={()=> dispatch(incrementByAmount())}>incrementByAmount</button>
+            <button onClick={()=> dispatch(incrementByAmount(2))}>increment Multiply by 2</button>
 
         </div>
     );
